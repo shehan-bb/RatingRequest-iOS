@@ -1,0 +1,41 @@
+PODS:
+  - Backbase (13.0.1):
+    - BackbaseSDKSwiftWrapper (~> 2.1)
+  - BackbaseCountryCore (1.1.1)
+  - BackbaseDesignSystem (6.5.1):
+    - BackbaseCountryCore (>= 1.1.1)
+    - Resolver (~> 1.2.1)
+  - BackbaseSDKSwiftWrapper (2.1.2):
+    - BackbaseSecureStorage (~> 2.1)
+  - BackbaseSecureStorage (2.1.6)
+  - Resolver (1.2.1)
+  - SwiftLint (0.57.1)
+
+DEPENDENCIES:
+  - Backbase
+  - BackbaseDesignSystem
+  - SwiftLint
+
+SPEC REPOS:
+  https://repo.backbase.com/artifactory/api/pods/pods/:
+    - Backbase
+    - BackbaseCountryCore
+    - BackbaseDesignSystem
+    - BackbaseSDKSwiftWrapper
+    - BackbaseSecureStorage
+  trunk:
+    - Resolver
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Backbase: 479e1d57fa0b01bf7f03cd0800e1fba31cebb5d1
+  BackbaseCountryCore: 49599b2d360c5371e33377b371703390e3f6c633
+  BackbaseDesignSystem: a70387b45f392fa7fb0dec884aadef70690f6882
+  BackbaseSDKSwiftWrapper: 027150743c664a289cc879d82eabd8e775dcf7f2
+  BackbaseSecureStorage: f04255baeafc2a1d36db8df18d322eadc2008197
+  Resolver: 764e380b2ddb26bba48c6e45ab393c968894a156
+  SwiftLint: 92196976e597b9afec5dbe374810103e6c1d9d7c
+
+PODFILE CHECKSUM: 08291874b167f53497e0b4d679f91e0cac201c65
+
+COCOAPODS: 1.16.2
